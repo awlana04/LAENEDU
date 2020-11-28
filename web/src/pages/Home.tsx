@@ -25,13 +25,13 @@ const Home = () => {
 
   useEffect(()=> {
     window.setInterval(()=> {
-      if(indexMessage < 4) {
+      if(indexMessage <= 3) {
         setMessageSelected(arrayMessages[indexMessage])
         setIndexMessage(indexMessage + 1);
       } else {
         setIndexMessage(0);
       }
-    }, 12000)
+    }, 7000)
   },[indexMessage])
    
   return (

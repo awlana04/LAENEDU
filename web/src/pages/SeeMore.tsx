@@ -17,7 +17,7 @@ const Home = () => {
     try {
       api.post("/reserve_account", data);
 
-      alert("Recebemos seu contato, assim que a plataforma estiver disponivel você será notificado !!");
+      alert("Recebemos seu contato, assim que a plataforma estiver disponivel você será notificado!");
       
     } catch {
       alert("Ocorreu um erro :(")
@@ -42,7 +42,7 @@ const Home = () => {
             });
             }}>
           
-            <h1>Interessados ? <br />Saiba Mais:</h1>
+            <h1>Interessado? <br />Saiba Mais:</h1><br />
             <span>Nome</span>
           
             <input name="name" value={name} onChange={(evt)=> {
