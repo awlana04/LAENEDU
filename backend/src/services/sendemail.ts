@@ -1,7 +1,5 @@
 import nodemailer from 'nodemailer';
 
-
-
 const sendMail = async ({name, email}: {name: string; email: string}) => {
     let transport = nodemailer.createTransport({
         host: "smtp.office365.com",
@@ -25,8 +23,6 @@ const sendMail = async ({name, email}: {name: string; email: string}) => {
       });
 
       console.log('info');
-
-    
 }
 
 

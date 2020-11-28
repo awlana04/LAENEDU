@@ -1,8 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from '../pages/Home';
-import SeeMore from '../pages/SeeMore';
-import ViewContent from '../pages/ViewContent';
+
+import Home from './pages/Home';
+import SeeMore from './pages/SeeMore';
+import ViewContent from './pages/ViewContent';
 
 const Routes: React.FC = () => {
   return (
